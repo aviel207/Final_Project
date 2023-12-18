@@ -3,7 +3,6 @@
 Name file: README
 
 
-Team Number:				xohw23-084  
 Project Name:				FPGA implementation of MD6 hash algorithm  
 Link to YouTube Video:   https://youtu.be/c6ThYfS_pMA  
 Link to Project repository:  https://github.com/xohw/MD6-FPGA-implementation.git  
@@ -24,15 +23,20 @@ Implementation of MD6 Hash algorithm in Verilog language in Artix-7 FPGA of Basy
 
 
 # Description of Archive:
-* "MD6_CF_prototype" folder contains the prototype design files of our project, intended for reference purposes only and not for use in the final implementation.
 
-* The "MD6_CF" folder includes all the relevant code files for our design, which are ready to be implemented.
+* The "Documents" folder - the documents folder contains the algorithm report submitted as one of the algorithm proposals for the NIST SHA-3 hashing standard competition, the project reports, the project report submitted to the competition on behalf of Xilinx-AMD and the information pages of the basys3 development kit.
 
-* Within the "Documents" folder, you will find two reports. The first report, "MD6_report_Ron_Rivest," provides a detailed description of the MD6 hash function and was submitted as an entry in the NIST SHA-3 hash function competition. The second report is the submission for the Xilinx open hardware contest. It also includes the Basys3 data sheets and another pdf file which provides clarification on synthesis warnings that arose during the implementation process.
+* The "MD6_CF_hardware" folder – the design files folder of the algorithm implemented in hardware containing the source files, the mem files, the compilation file, the XDC file, and the test bench files.
 
-* The "Software" folder contains the MD6 software wrapper and the test vectors software. Both of these folders include implementations in both GUI and Python code.
+* The "MD6_CF_prototype" folder – a folder containing the initial design of the compression function.
 
-* Lastly, the "VISIO" folder contains two block diagrams that are included in our report.  
+* The "MD6_CF_PAR_MODE" folder – a folder containing a hardware implementation of the MD6 algorithm in parallel operation mode with two compression functions.
+
+* The "MD6_Operating_Modes" folder – a folder containing the planning of the algorithm's operating modes.
+
+* The "MD6_CF_software" folder – a folder containing the software implementation of the MD6 algorithm with one compression function.
+
+* The "Executable_files" folder – a folder containing the executable files for the hardware implementation, hardware design verification activation on the development kit and hardware design verification on the ModelSim simulation.
 
 # Implementation of the algorithm on the board:  
 
@@ -40,8 +44,8 @@ Implementation of MD6 Hash algorithm in Verilog language in Artix-7 FPGA of Basy
 
 		1.  Connect the board to the computer using a USB cable.  
 		2.  Open Vivado and create a new RTL project.  
-		3.  Under 'Add Sources', include all the source codes (.v, .mem, .vh) from MD6_CF/Code files.   
-		4.  In 'Add Constraints', add the xdc file from MD6_CF/XDC file. 
+		3.  Under 'Add Sources', include all the source codes (.v, .mem, .vh) from MD6_CF_hardware/Code files.   
+		4.  In 'Add Constraints', add the xdc file from MD6_CF_hardware/XDC file. 
 		5.  In 'Default Part', select the required chip: Artix-7, XC7A35T1CPG236C (speed -1).  
 		6.  Run Synthesis, Implementation, and generate the Bitstream.  
 		7.  Program the device.  
@@ -50,7 +54,7 @@ Implementation of MD6 Hash algorithm in Verilog language in Artix-7 FPGA of Basy
 
 		1.  Check the "COM" number connected to the board in the device manager of your computer.  
 		2.  Based on the loaded XDC file, press the reset button "BTNU" on the board (top button).  
-		3.  Open the "MD6_CF.exe" from Software/MD6_CF Software/GUI App. 
+		3.  Open the "MD6_CF.exe" from Executable_files/MD6_CF_exe/GUI App. 
 		4.  Select the message and key type you want to insert.  
 		5.  Enter the message - M.  
 		6.  Enter the key - K (optional).   
@@ -66,7 +70,7 @@ Implementation of MD6 Hash algorithm in Verilog language in Artix-7 FPGA of Basy
 # Instructions for running the test vectors:
 
 		1.  Implementation of the algorithm on the board as described above.
-		2.  Open the "Test_vector.exe" from Software/Test Vectors Software/GUI App.
+		2.  Open the "Test_vector.exe" Executable_files/Test_Vectors_exe/GUI App.
 		3.  Enter the COM number of your computer
 		4.  Select the number of test vectors you want to run
 		5.  When "reset" instruction appears on the screen, press the reset button BTNU and press the "Enter" shown on the screen
