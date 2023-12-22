@@ -6,8 +6,11 @@ Name file: README
 Project Name:				FPGA implementation of MD6 hash algorithm 
  
 Link to Project repository:  https://github.com/aviel207/Final_Project.git 
+
 Link to YouTube Video:   https://youtu.be/c6ThYfS_pMA  
+
 Link to Full Demonstration Of Implementing The CF MD6 On FPGA video :	https://youtu.be/ZC4aacu0pbw  
+
 University Name:			  Jerusalem College of Technology (JCT)  
 Participant 1:				  Aviel Birduaker  
 Participant 1 E-mail:			birduake@g.jct.ac.il  
