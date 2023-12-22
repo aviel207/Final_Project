@@ -5,7 +5,7 @@ Name file: README
 
 Project Name:				FPGA implementation of MD6 hash algorithm  
 Link to YouTube Video:   https://youtu.be/c6ThYfS_pMA  
-Link to Project repository:  https://github.com/aviel207/Final_Project.git 
+Link to Project repository:   https://github.com/aviel207/Final_Project.git 
 Link to Full Demonstration Of Implementing The CF MD6 On FPGA video :	https://youtu.be/ZC4aacu0pbw  
 University Name:			  Jerusalem College of Technology (JCT)  
 Participant 1:				  Aviel Birduaker  
@@ -26,17 +26,17 @@ Implementation of MD6 Hash algorithm in Verilog language in Artix-7 FPGA of Basy
 
 * The "Documents" folder - the documents folder contains the algorithm report submitted as one of the algorithm proposals for the NIST SHA-3 hashing standard competition, the project reports, the project report submitted to the competition on behalf of Xilinx-AMD and the information pages of the basys3 development kit.
 
-* The "MD6_CF_hardware" folder – the design files folder of the algorithm implemented in hardware containing the source files, the mem files, the compilation file, the XDC file, and the test bench files.
+* The "MD6_CF_hardware" folder â€“ the design files folder of the algorithm implemented in hardware containing the source files, the mem files, the compilation file, the XDC file, and the test bench files.
 
-* The "MD6_CF_prototype" folder – a folder containing the initial design of the compression function.
+* The "MD6_CF_prototype" folder â€“ a folder containing the initial design of the compression function.
 
-* The "MD6_CF_PAR_MODE" folder – a folder containing a hardware implementation of the MD6 algorithm in parallel operation mode with two compression functions.
+* The "MD6_CF_PAR_MODE" folder â€“ a folder containing a hardware implementation of the MD6 algorithm in parallel operation mode with two compression functions.
 
-* The "MD6_Operating_Modes" folder – a folder containing the planning of the algorithm's operating modes.
+* The "MD6_Operating_Modes" folder â€“ a folder containing the planning of the algorithm's operating modes.
 
-* The "MD6_CF_software" folder – a folder containing the software implementation of the MD6 algorithm with one compression function.
+* The "MD6_CF_software" folder â€“ a folder containing the software implementation of the MD6 algorithm with one compression function.
 
-* The "Executable_files" folder – a folder containing the executable files for the hardware implementation, hardware design verification activation on the development kit and hardware design verification on the ModelSim simulation.
+* The "Executable_files" folder â€“ a folder containing the executable files for the hardware implementation, hardware design verification activation on the development kit and hardware design verification on the ModelSim simulation.
 
 # Implementation of the algorithm on the board:  
 
