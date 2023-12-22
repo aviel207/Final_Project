@@ -2,7 +2,6 @@
 # MD6-FPGA-implementation
 Name file: README
 
-
 Project Name:				FPGA implementation of MD6 hash algorithm 
  
 Link to Project repository:  https://github.com/aviel207/Final_Project.git 
